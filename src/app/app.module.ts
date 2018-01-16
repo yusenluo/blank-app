@@ -6,24 +6,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ButtonPage } from "../pages/button/button";
-import { ListPage } from "../pages/list/list";
-import { CardPage } from '../pages/card/card';
-import { FabPage } from "../pages/fab/fab";
-import { GesturePage } from "../pages/gesture/gesture";
-import { GridPage } from "../pages/grid/grid";
+
+
 
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    ButtonPage,
-    ListPage,
-    CardPage,
-    FabPage,
-    GesturePage,
-    GridPage
+    HomePage
+
   ],
   imports: [
     BrowserModule,
@@ -32,13 +23,8 @@ import { GridPage } from "../pages/grid/grid";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    ButtonPage,
-    ListPage,
-    CardPage,
-    FabPage,
-    GesturePage,
-    GridPage
+    HomePage
+
   ],
   providers: [
     StatusBar,
